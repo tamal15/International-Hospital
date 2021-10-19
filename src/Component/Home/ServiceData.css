@@ -1,0 +1,16 @@
+.card img{
+    height:180px;
+    width:286px;
+    /* position:fixed; */
+    padding:7px;
+    border-radius: 15px;
+}
+.button{
+    /* background-color: #f44336; */
+    background-color: #f7345e;
+    padding: 8px;
+    border-radius: 8px;
+    color:white;
+    width:130px;
+    border:lightgrey;
+}

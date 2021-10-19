@@ -1,0 +1,40 @@
+[
+    {   
+        "id":"1",
+        "name": "Health Check",
+        "image": "./image/service/service1.jpg",
+        "description":"The health professional – often a nurse or healthcare assistant – will ask you some questions about your lifestyle and family history, measure your height and weight, and take your blood pressure and do a blood test."
+    },
+    {   
+        "id":"2",
+        "name": "Operation Theater",
+        "image": "./image/service/service4.jpg",
+        "description":"The operating room is known as the theatre. Before you enter the theatre, you wait in the pre-op room. If your child is going to theatre, you may stay with them in the pre-op room and accompany them into the operating theatre until they are asleep. "
+    },
+    {   
+        "id":"3",
+        "name": "Pharmacy Support",
+        "image": "./image/service/service3.jpg",
+        "description":"Our pharmacists can help you create personalized treatment plans for your patients, offer dosing and titration recommendations, advise on potential adverse reactions, provide drug-specific education, and complete medication reconciliations "
+    },
+  
+    {   
+        "id":"4",
+        "name": "Ambulance Car",
+        "image": "./image/service/service5.jpg",
+        "description":"Emergency medical services (EMS), also known as ambulance services or paramedic services, are emergency services that provide urgent pre-hospital treatment and stabilisation for serious illness and injuries and transport to definitive care"
+    },
+    {   
+        "id":"5",
+        "name": "Lab Tests",
+        "image": "./image/service/service6.jpg",
+        "description":"A medical test is a medical procedure performed to detect, diagnose, or monitor diseases, disease processes, susceptibility, or to determine a course of treatment. Medical tests such as, physical and visual exams, diagnostic imaging, genetic testing, chemical and cellular analysis, "
+    },
+    
+    {   
+        "id":"6",
+        "name": "Intensive Care",
+        "image": "./image/service/service7.jpg",
+        "description":"Intensive care medicine, also called critical care medicine, is a medical specialty that deals with seriously or critically ill patients who have, are at risk of, or are recovering from conditions that may be life-threatening.[1] It includes providing life support, invasive monitoring techniques, "
+    }
+]

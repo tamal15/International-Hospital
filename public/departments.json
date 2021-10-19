@@ -1,0 +1,38 @@
+[
+    {   
+      
+        "name": "Cardiology Department",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-1.jpg"
+       
+    },
+    {   
+        
+        "name": "Neurology Department",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-2.jpg"
+    
+    },
+    {   
+        "id":"3",
+        "name": " Urology Department",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-3.jpg"
+    },
+  
+    {   
+        
+        "name": "Gynecological",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-12.jpg"
+    },
+    {   
+        
+        "name": "Pediatrical",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-10.jpg"
+     
+    },
+    
+    {   
+       
+        "name": " Laboratory",
+        "image": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/service-11.jpg"
+       
+    }
+]
