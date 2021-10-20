@@ -4,6 +4,7 @@ import './About.css'
 import image1 from '../../../src/images/doctor1.jpg'
 import image2 from '../../../src/images/doctor2.jpg'
 import image3 from '../../../src/images/doctor3.jpg'
+import Footer from '../Footer/Footer'
 
 const About = () => {
     const designShow = {
@@ -13,7 +14,7 @@ const About = () => {
         <div>
 
             <div className="about">
-                <h3 className="datas">About US</h3>
+                <h3 className="datas">About</h3>
 
             </div>
 
@@ -151,7 +152,7 @@ const About = () => {
 
 
 
-
+          <Footer></Footer>
 
         </div>
     );

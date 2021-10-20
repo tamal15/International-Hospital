@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import slider1 from '../../../images/slider1.jpg';
 import slider2 from '../../../images/slider2.jpg';
 import slider3 from '../../../images/slider3.jpg';
+import './Banner.css'
 const Banner = () => {
     return (
         <div>
@@ -17,8 +18,10 @@ const Banner = () => {
   
   
     <Carousel.Caption className="styles">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 className="text-dark">Welcme to our Medical care center</h3>
+      <p className="text-dark">We take care our patients health.</p>
+      <button className="banner bg-dark text-white">About us</button>
+      <button className="banners  text-white">Our Services</button>
     </Carousel.Caption>
   
 
@@ -33,8 +36,10 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h3 className="text-dark">Welcme to our Medical care center</h3>
+      <p className="text-dark">We take care our patients health.</p>
+      <button className="banner bg-dark text-white">About us</button>
+      <button className="banners  text-white">Our Services</button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -45,8 +50,10 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h3 className="text-dark">Welcme to our Medical care center</h3>
+      <p className="text-dark">We take care our patients health.</p>
+      <button className="banner bg-dark text-white">About us</button>
+      <button className="banners  text-white">Our Services</button>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

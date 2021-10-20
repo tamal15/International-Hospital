@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="left-container text-start">
-                            <h1>International University</h1>
+                            <h1>International Hospital</h1>
                             <div className="icons-container d-flex text-center">
                                 <div className="icons">
                                 <i class="fab fa-facebook-square"></i>
@@ -25,7 +25,7 @@ const Footer = () => {
                                 </div>
                              
                             </div>
-                            <p>this is the nice university and all teacher are helpful. and all course are very exicted are learning</p>
+                            <p>Hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, both medical and surgical.</p>
                                 <p>
                                     <small>
                                         tamal @ copyright the design
@@ -58,6 +58,8 @@ const Footer = () => {
            <div className="right-footer-container">
                <h3>Sign up for the newsletter</h3>
                <input className="input" type="text" placeholder="enter email" />
+               <br/>
+               <br/>
                <div className="phone-icon">
 
             <h6>

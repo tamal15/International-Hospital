@@ -1,0 +1,15 @@
+.banner{
+    padding:10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:white;
+}
+
+.banners{
+    margin:8px;
+    padding:10px;
+    font-size: 18px;
+    background-color:salmon;
+    border-radius: 5px;
+    border:white;
+}

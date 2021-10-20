@@ -1,25 +1,25 @@
-.contact-col{
-	/* flex-basis: 48%; */
+/* .login-col{
+	flex-basis: 48%;
 	margin-bottom:40px;
 	padding: 30px;
 	background: #fff;
 	width: 80%;
     margin-left: 60px;
     margin-top: 25px;
-	/* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.12); */
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 0 5px 0 red;
 	padding-top:40px;
     background-color:cornsilk;
   }
 
-  .contact-col , .contact-col textarea{
+  .login-col , .login-col textarea{
 	width:70%;
 	padding:10px;
 	margin:15px 0;
 	box-sizing:border-box;
 	border:none;
 	outline:none;
-	/* background:#f0f0f0; */
+	background:#f0f0f0;
     background-color:#fff;
 	border:1px solid;
   }
@@ -53,4 +53,41 @@
 }
 .registers{
     margin-top: -70px;
+} */
+
+.googles{
+    border:1px solid brown;
+    background:transparent;
+    background-color:#996965;
+    color:white;
+    padding: 10px;
+    width:250px;
+    font-size: 20px;
 }
+
+
+.background-design{
+    background-color:rgb(230, 243, 243);
+    width:450px;
+
+}
+
+.emails{
+    margin-left: -10px;
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.background-design input, .login-col textarea{
+	width:70%;
+	padding:10px;
+	margin:15px 0;
+	box-sizing:border-box;
+	border:none;
+	outline:none;
+	background:#f0f0f0;
+    background-color:#fff;
+	border:1px solid;
+    border-radius: 15px;
+  }

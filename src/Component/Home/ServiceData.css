@@ -14,3 +14,15 @@
     width:130px;
     border:lightgrey;
 }
+/* .card{
+    overflow: hidden;
+} */
+.image-card:hover{
+    background-color: pink;
+  
+        /* transform:scale(1.5);
+        transition:transform 2s ease-in ;
+        overflow: hidden; */
+        
+    
+}

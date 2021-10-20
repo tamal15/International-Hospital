@@ -37,22 +37,35 @@ const Header = () => {
                   <li class="nav-item">
                     {/* <a class="nav-link" href="#cow1">Cow</a> */}
                    {
-                     user.email?<button onClick={logout}>Logout</button>:
+                     user.email?<button className="log" onClick={logout}>Logout</button>:
                      <Link className="nav" to="/login">Login</Link>
                    }
                   </li>
-                  <h6> {user.displayName} </h6>
+                  <h6 className="use"> {user.displayName} </h6>
                   <li class="nav-item">
                   <Link className="nav" to="/about">About</Link>
                   </li>
                   <li class="nav-item">
                   <Link className="nav" to="/department">Department</Link>
                   </li>
+                  {/* <li class="nav-item">
+                  <Link className="nav" to="/service">Services</Link>
+                  </li> */}
+
+<li class="nav-item dropdown drop-button">
+          <Link class="nav-link dropdown-toggle drops-buttons" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </Link>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link class="dropdown-item" to="/service">Service</Link></li>
+            <li><Link class="dropdown-item" to="/shop">Our Shop</Link></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><Link class="dropdown-item" href="#">Something else here</Link></li>
+          </ul>
+        </li>
+
                   <li class="nav-item">
                   <Link className="nav" to="/contact">Contact</Link>
-                  </li>
-                  <li class="nav-item">
-                  <Link className="nav" to="/mentor">Mentors</Link>
                    </li>
                  
                 

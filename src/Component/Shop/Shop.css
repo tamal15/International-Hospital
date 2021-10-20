@@ -1,0 +1,11 @@
+.shop{
+    background-image: url('../../images/slider3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    /* width: 300px; */
+}
+/* .shops:hover{
+    background-color: thistle;
+} */

@@ -5,6 +5,7 @@ import ServiceData from './ServiceData';
 // import './ServiceData'
 
 const Home = () => {
+    // const [service, setService] = useState([])
     const [service, setService] = useState([])
 
     useEffect(() => {

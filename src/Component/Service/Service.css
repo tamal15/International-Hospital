@@ -1,0 +1,37 @@
+.service-banner{
+    background-image: url('../../images/slider1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+}
+.designs{
+    /* background-color: silver; */
+    margin-top: 10px;
+    background-color:rgb(208, 245, 245);
+    padding:30px;
+    
+}
+
+.image-slide img{
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+
+}
+
+/* .image-slide:hover{
+ 
+        transform:scale(1.5);
+        transition:transform 2s ease-in ;
+        
+    
+
+} */
+/* .image-slide{
+    overflow: hidden;
+} */
+
+/* .services-style{
+    margin-bottom: 20px;
+} */
