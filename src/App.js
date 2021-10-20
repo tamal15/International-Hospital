@@ -16,6 +16,7 @@ import Service from '../src/Component/Service/Service'
 import Contact from './Component/Contact/Contact';
 import Register from './Component/Firebase/Registration/Register';
 import Shop from './Component/Shop/Shop';
+import CheckerBox from './Component/CheckerBox/CheckerBox';
 function App() {
   return (
     <div className="App">
@@ -53,6 +54,9 @@ function App() {
       </Route>
       <Route path='/shop'>
        <Shop></Shop>
+      </Route>
+      <Route path='/checkerbox'>
+       <CheckerBox></CheckerBox>
       </Route>
      
       <PrivetRoute path='/serviceDetails/:id'>

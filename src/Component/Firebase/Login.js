@@ -2,15 +2,12 @@ import React, { useReducer, useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 // import useAuth from '../../hooks/useAuth';
 import {useLocation,useHistory} from 'react-router-dom';
-// import useFirebase from '../../hooks/UseFirebase';
-// import '../../hooks/useEmailPassword/useEmailPassword'
+
 import './Login.css'
-// import useEmailPassword from '../../hooks/useEmailPassword/useEmailPassword';
 
 const Login = () => {
     const{GoogleLogin,handleSignInUser,user}=useAuth()
-    // const {handleFrom,handleEmail,handlePassword,error,isLogin,toogleLogin,handleUpdate}=useEmailPassword()
-
+  
     const location=useLocation()
     const history=useHistory()
     const [email, setEmail] = useState('')
@@ -39,48 +36,6 @@ const Login = () => {
   const handleEmail = e => setEmail(e.target.value)
   const handlePassword = e => setPassword(e.target.value)
     return (
-//         <div>
-//             <div className="login-col">
-//                 <form action="" onSubmit={handleFrom}>
-//                 <h1 className="my-5 text-info">{isLogin
-//        ? 'Login' : 'Register'}</h1>
-//                    {!isLogin && 
-//                      <input onBlur={handleUpdate} type="text" placeholder="Name" required />
-//                      }
-//                     <input onBlur={handleEmail} type="text" placeholder="email address" required />
-//                     <input onBlur={handlePassword}  type="password" placeholder="enter your password" required />
-//                     <br/>
-   
-//                     <div className="row mb-3">
-//     <div className="col-sm-10 offset-sm-2">
-//       <div className="form-check">
-//         <input className="form-check checks" onChange={toogleLogin} type="checkbox" id="gridCheck1" placeholder="email address"/>
-//         <label className="form-check-label" htmlFor="gridCheck1">
-//         <span className="registers"> Already Register</span>
-           
-//          </label>
-      
-//       </div>
-//     </div>
-//   </div>
-//   <br/>
-//                     {error}
-//                     <br/>
-//                     <button  type="submit" className="hero-btn red-btn">{isLogin ? 'Login' : 'Register'}</button>
-//                     <br/>
-//                     <br/>
-//                     <Link to="/register">Please register</Link>
-//                     <br/>
-//                     <br/>
-//                     <button className="googles" onClick={handleGoogle}>google</button>
-//                 </form>
-//             </div>
-//         </div>
-
-
-
-
-
 
 
 

@@ -83,7 +83,7 @@ const Service = () => {
             
         </div>
 
-        <div className="container designs mt-5">
+        <div className="container designs mt-5 services-style">
             <div className="row">
                 <div className="col-lg-6">
                   <h5 className="">EED A DOCTOR FOR CHECK-UP?</h5>

@@ -60,7 +60,7 @@ const Header = () => {
             <li><Link class="dropdown-item" to="/service">Service</Link></li>
             <li><Link class="dropdown-item" to="/shop">Our Shop</Link></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" href="#">Something else here</Link></li>
+            <li><Link class="dropdown-item" to="/checkerbox">Checkerboard</Link></li>
           </ul>
         </li>
 

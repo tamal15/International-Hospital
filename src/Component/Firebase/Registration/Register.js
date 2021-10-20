@@ -1,8 +1,7 @@
 import React, { useReducer, useState } from 'react';
 import { useHistory } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
-// import useEmailPassword from '../../../hooks/useEmailPassword/useEmailPassword';
-// import useFirebase from '../../../hooks/UseFirebase';
+
 import './Register.css'
 
 const Register = () => {
@@ -34,20 +33,9 @@ const Register = () => {
 
 
 
-    // const {handleFrom,handleEmail,handlePassword,isLogin}=useEmailPassword()
+    
     return (
-        // <div>
-        //      <div className="contact-col">
-        //         <form action="" onSubmit={handleFrom}>
-        //             <input onBlur={handlePassword}  type="emal" placeholder="enter your email" required />
-        //             <input onBlur={handleEmail}  type="text" placeholder="email address" required />
-        //             {/* <input type="text" placeholder="subject" required />
-        //             <input type="text" placeholder="message" required /> */}
-        //             <br/>
-        //             <button type="submit" className="hero-btn red-btn">{isLogin}Register</button>
-        //         </form>
-        //     </div>
-        // </div>
+      
 
 
 
